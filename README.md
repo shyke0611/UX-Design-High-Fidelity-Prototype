@@ -107,7 +107,8 @@ A major challenge was applying various design principles effectively to create a
 
 Email - hyungkenine2003@gmail.com
 
-Project Link - [https://github.com/shyke0611/Car_Rental_Project.git](https://github.com/shyke0611/Car_Rental_Project.git)
+Project Link - [https://github.com/shyke0611/UX-Design-High-Fidelity-Prototype
+.git](https://github.com/shyke0611/UX-Design-High-Fidelity-Prototype.git)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
