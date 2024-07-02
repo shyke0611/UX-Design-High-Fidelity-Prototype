@@ -24,13 +24,12 @@
 The Freecycling! platform utilises design principles and colour schemes to enhance usability and create an engaging user experience. This README summarises the design decisions, user interface components, and the overall visual strategy of the platform.
 
 
-[![find Vehicle Page][findVehicles]](project_images/findVehicles.png)
+[![HomePage][home]](project_images/Homepage.png)
 <br><br>
 
-[![Manage Vehicle Page][manageVehicles]](project_images/manageVehicles.png)
+[![LoginForm][login]](project_images/loginform.png)
 <br><br>
 
-[![Payment Page][payment]](project_images/payment.png)
 
 
 ## Design Principles
@@ -129,7 +128,5 @@ Project Link - [https://github.com/shyke0611/Car_Rental_Project.git](https://git
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/andrew-hk-shin
-[findVehicles]: project_images/findVehicles.png
-[manageVehicles]: project_images/manageVehicles.png
-[payment]: project_images/payment.png
-[ERD]: project_images/ERD.png
+[login]: project_images/loginform.png
+[home]: project_images/Homepage.png
