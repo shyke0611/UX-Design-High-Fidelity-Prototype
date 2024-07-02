@@ -32,7 +32,9 @@ The Freecycling! platform utilises design principles and colour schemes to enhan
 
 [![Payment Page][payment]](project_images/payment.png)
 
+
 ## Design Principles
+[High Fidelity Report.pdf](https://github.com/user-attachments/files/16060507/350.High.Fidelity.Report.pdf)
 
 ### Homepage
 - **Visual Hierarchy**: The homepage uses a large background image to draw attention, with central figures scaled down to guide the user's focus.
