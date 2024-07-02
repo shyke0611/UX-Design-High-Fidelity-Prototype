@@ -34,7 +34,7 @@ The Freecycling! platform utilises design principles and colour schemes to enhan
 
 
 ## Design Principles
-[High Fidelity Report.pdf](https://github.com/user-attachments/files/16060507/350.High.Fidelity.Report.pdf)
+[High Fidelity Report.pdf](https://github.com/user-attachments/files/16060515/350.High.Fidelity.Report.-.hshi270.pdf)
 
 ### Homepage
 - **Visual Hierarchy**: The homepage uses a large background image to draw attention, with central figures scaled down to guide the user's focus.
@@ -58,12 +58,12 @@ The Freecycling! platform utilises design principles and colour schemes to enhan
 - **Visual Hierarchy**: Asymmetrical division into signup and welcome sections directs user attention efficiently.
 - **User Control**: A prominent close button aligns with familiar user interface patterns, enhancing control and freedom.
 
-## User Experience Enhancements
+### User Experience Enhancements
 - **Meaningful Green Elements**: Green elements align with environmental values and improve ease of learning and memorability.
 - **Quick Recognition**: Consistent visual cues reduce cognitive load and enhance intuitive use.
 - **Dropdown Menus**: Dropdowns reduce user errors and increase efficiency by minimising typing.
 
-## Colour Scheme
+### Colour Scheme
 - **Primary Colour**: The brand's signature colour (#26252D) is used throughout the platform, providing a consistent visual identity.
 - **Contrast and Emphasis**: White text on dark backgrounds and highlighted action buttons ensure key elements stand out.
 
