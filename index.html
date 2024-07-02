@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freecycling!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href='https://fonts.googleapis.com/css?family=RobotoDraft' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+    <!-- div holding the main background images and text-->
+    <div class="image-container">
+        <!-- the main background image -->
+        <img class="main-image" src="recycling.jpg" alt="household-items">
+        <!-- main text -->
+        <div class="main-text ">
+            <div class="w3-animate-zoom">
+                <h1>Share More, Waste Less</h1>
+                <h4 style=" margin-bottom: 40px;">Freecycling! enables users to sign up
+                    for a freecycling network in
+                    their local community, where individuals can give away items they no longer need for free...</h4>
+                <a href="#learnmore" class=" main-text-btn">LEARN MORE</a>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- navigation bar -->
+    <div class="navigation-section">
+        <div class="w3-animate-top nav-container">
+
+            <!-- freecycling logo -->
+            <div id="nav-image-container">
+                <img class="logo nav-item" src="logo.png" alt="Freecycling! logo">
+                <h1>FreeCycling!</h1>
+            </div>
+
+            <!-- about -->
+            <a href="#about" class="nav-item"><i class="fa fa-book"></i>ABOUT</a>
+
+            <!-- contact -->
+            <a href="#contact" class="nav-item"><i class="fa fa-phone"></i>CONTACT</a>
+
+            <!-- add listing -->
+            <a href="#listing" class="nav-item"><i class="fa fa-pencil"></i>LIST ITEMS</a>
+
+            <!-- wish list -->
+            <a id="wishlist" href="#wishlist" class="nav-item">
+                <i class="fa fa-heart"></i>
+                <span class="wishlist-count" style="margin-right:10px; margin-left:-19px">0</span>WISH LIST
+            </a>
+
+            <!-- login  -->
+            <a id="login" href="#Login" class="nav-item"><i class="fa fa-sign-in"></i>LOG IN</a>
+
+            <!-- sign up  (triggering the modal) -->
+            <a id="trigger-modal" href="#signup" class="nav-item"><i class="fa fa-user"></i>REGISTER</a>
+
+
+        </div>
+    </div>
+
+
+    <!-- search and filtering -->
+    <div class="contents">
+
+        <!-- search bar container (div) -->
+        <div class="search-container opac-animation1" style="margin-top:20px;">
+            <i class="fa fa-search" style="font-size: 30px; color: green; margin-right:10px;"></i>
+            <div>
+                <input type="text" class="search-bar" placeholder="ex: Books, Furniture" style="font-size: 17px;">
+            </div>
+
+            <!-- vertical bars that divide the sections -->
+            <div class="divider"></div>
+
+            <!-- drop down for location -->
+            <div class="dropdown">
+                <i class="fa fa-location-arrow" style="font-size: 30px; color: green; margin-right:10px;"></i>
+                <select>
+                    <option value="option1">Auckland</option>
+                    <option value="option2">Wellington</option>
+                    <option value="option3">Hamilton</option>
+                    <option value="option4">Tauranga</option>
+                    <option value="option5">Rotorua</option>
+                    <option value="option6">Queenstown</option>
+                    <option value="option7">ChristChurch</option>
+                </select>
+
+            </div>
+
+            <!-- vertical bars that divide the sections -->
+            <div class="divider"></div>
+
+            <!-- drop down for how far -->
+            <div class="dropdown">
+                <i class="fa fa-map-marker" style="font-size: 30px; color: green; margin-right:10px;"></i>
+                <select>
+                    <option value="option1">within 5km</option>
+                    <option value="option2">within 10km</option>
+                    <option value="option3">within 15km</option>
+                    <option value="option4">within 20km</option>
+                    <option value="Wellington">20+km</option>
+                </select>
+
+            </div>
+            <!-- <i class="fa fa-map-marker" style="color: white; font-size: 25px; margin-right:5px; margin-left:5px;"></i>></i> -->
+            <button class="search-bar">Search</button>
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <!-- social media -->
+    <div class="social-media-section ">
+
+        <div class="sm-container">
+            <div class="socials">
+                <a href="#instagram"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="socials">
+                <a href="#facebook"><i class="fa fa-facebook-square"></i></a>
+            </div>
+            <div class="socials">
+                <a href="#twitter"><i class="fa fa-twitter-square" style="margin-right:30px"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Category -->
+
+    <div class="category-section opac-animation2">
+        <div class="category-text">
+            <h3>OR</h3>
+        </div>
+        <div class="cat-container">
+            <div class="category">
+                <a href="#furniture"><i class="fa fa-home" style="margin-right: 10px;"></i>Furniture</a>
+            </div>
+            <div class="category">
+                <a href="#kitchenware"><i class="fa fa-cutlery" style="margin-right: 10px;"></i>Kitchenware</a>
+            </div>
+            <div class="category">
+                <a href="#electronics"><i class="fa fa-mobile" style="margin-right: 10px;"></i>Electronics</a>
+            </div>
+
+            <div class="category">
+                <a href="#outdoor"><i class="fa fa-dribbble" style="margin-right: 10px;"></i>Outdoor</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <!-- MODAL -->
+
+
+
+
+    <!-- modal for sign up page-->
+    <div id="modalPage" class="modal">
+        <!-- modal content -->
+        <div class="modal-content w3-animate-left">
+            <!-- close button -->
+            <span id="closeBtn" class="close">&times;</span>
+            <!-- modal container -->
+            <div class="modal-container">
+                <!-- first section (actual sign up side) -->
+                <div class="sections">
+
+                    <div id="form-ct">
+
+                        <h2>Register</h2>
+
+                        <!-- person info sub heading -->
+                        <div>
+                            <h5>Personal Information</h5>
+                        </div>
+
+                        <!-- actual form-->
+                        <form>
+                            <!-- user info -->
+                            <div id="user-details">
+
+                                <div class="fields">
+                                    <i class="fa fa-font" style="font-size: 25px; color: white; margin-left:10px;"></i>
+                                    <input type="text" id="givenname" name="givenname"
+                                        placeholder="Enter your given name" required><br><br>
+                                </div>
+
+                                <div class="fields">
+                                    <i class="fa fa-credit-card"
+                                        style="font-size: 25px; color: white; margin-left:10px;"></i>
+                                    <input type="text" id="surname" name="surname" placeholder="Enter your surname"
+                                        required><br><br>
+                                </div>
+
+                                <div class="fields">
+                                    <i class="fa fa-user" style="font-size: 25px; color: white; margin-left:10px;"></i>
+                                    <input type="text" id="username" name="username" placeholder="Enter your username"
+                                        required><br><br>
+                                </div>
+
+                                <div class="fields">
+                                    <i class="fa fa-lock" style="font-size: 25px; color: white; margin-left:10px;"></i>
+                                    <input type="password" id="password" name="password"
+                                        placeholder="Enter your password" required><br><br>
+                                </div>
+                            </div>
+
+
+                            <!-- the address info -->
+                            <h5>Address Information</h5>
+                            <div id="address-details">
+
+                                <div class="fields">
+                                    <i class="fa fa-home" style="font-size: 25px; color: white; margin-left:10px;"></i>
+                                    <input type="text" id="homeAddress" name="homeAddress"
+                                        placeholder="Enter your Home Address" required><br><br>
+                                </div>
+
+                                <div class="fields">
+                                    <i class="fa fa-building"
+                                        style="font-size: 25px; color: white; margin-left:10px;"></i>
+                                    <input type="text" id="workAddress" name="workAddress"
+                                        placeholder="Enter your Work Address" required><br><br>
+                                </div>
+
+                            </div>
+
+                            <!-- the contact info -->
+                            <h5>Contact Information</h5>
+                            <div id="contact-details">
+
+                                <div class="fields">
+                                    <i class="fa fa-tablet"
+                                        style="font-size: 25px; color: white; margin-left:15px;"></i>
+                                    <input type="text" id="mobileNumber" name="mobileNumber"
+                                        placeholder="Enter your Mobile Number" required><br><br>
+                                </div>
+
+                                <div class="fields">
+                                    <i class="fa fa-envelope"
+                                        style="font-size: 25px; color: white; margin-left:15px;"></i>
+                                    <input type="email" id="email" name="email" placeholder="Enter your Email"
+                                         required><br><br>
+                                </div>
+
+                            </div>
+                            <!-- sign up button -->
+                            <input type="signup" id="modalsignup" value="Sign Up" readonly>
+                        </form>
+                    </div>
+                </div>
+                <!-- second section (images) -->
+                <div class="sections">
+                    <img id="signupimg" src="signup.jpg" alt="background image of people with new furniture">
+                    <img id="signuplogo" src="logo.png" alt="Freecycling! logo">
+                    <h1>Welcome to FreeCycling!</h1>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <!-- javascript for opening the modal for Sign up page -->
+
+    <script>
+        // initialising variables
+        var modal = document.getElementById("modalPage");
+        var trigger = document.getElementById("trigger-modal");
+        var closing = document.getElementById("closeBtn"); // Corrected the id here
+
+        // when the user clicks on the register button, open the modal
+        trigger.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // when the user clicks on the x, close the modal
+        closing.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // when the user clicks anywhere outside of the modal, it closes
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
