@@ -15,8 +15,7 @@
   <h3 align="center">Freecycling! High Fidelity Prototype</h3>
 
   <p align="center">
-    Welcome to the Freecycling! High Fidelity Prototype. This project showcases the design and user experience improvements of the Freecycling! platform, emphasising intuitive navigation, effective visual 
-    hierarchy, and a cohesive colour scheme to promote environmentally friendly item exchanges. The project is built using HTML, CSS, and JavaScript.
+    Part 3 Software engineering assignment for University of Auckland, handling UX/UI design.
   </p>
 </div>
 
@@ -24,8 +23,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+[Assignment Overview.pdf](https://github.com/user-attachments/files/16166782/High-Fidelity.Prototype.Assignment.Handout.2024.pdf)
 
-The Freecycling! platform utilises design principles and colour schemes to enhance usability and create an engaging user experience. This README summarises the design decisions, user interface components, and the overall visual strategy of the platform.
+This assignment involves designing a high-fidelity prototype for a freecycling program, including a landing page and a registration form. The main objective is to practice skills in web design using 
+HTML, CSS, and JavaScript, while adhering to visual design principles and accessibility guidelines.
 
 
 [![HomePage][home]](project_images/Homepage.png)
