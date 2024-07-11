@@ -107,14 +107,6 @@ The design incorporates Nielsen's heuristics for user interface design, ensuring
 ### Challenges and Learning Experience
 A major challenge was applying various design principles effectively to create a cohesive and engaging user interface. Addressing these challenges improved my understanding of UX design and enhanced my problem-solving skills.
 
-<!-- CONTACT -->
-## Contact
-
-Email - hyungkenine2003@gmail.com
-
-Project Link - [https://github.com/shyke0611/UX-Design-High-Fidelity-Prototype
-.git](https://github.com/shyke0611/UX-Design-High-Fidelity-Prototype.git)
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
